@@ -1,0 +1,39 @@
+:root {
+  --white-color: #fafafa;
+  --black-color: #212121;
+}
+
+/* Button */
+.button {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+}
+
+/* Basic Design Button */
+.basic-button {
+  border: 1px solid var(--white-color);
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
+
+/* Outline Basic Button */
+.outline-button {
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  background-color: transparent;
+  transition: all 2s ease-out;
+}
+
+/* Medium Size Button */
+.medium-button {
+  font-size: 1.25rem;
+}
+
+/* Large Size Button */
+.large-button {
+  font-size: 1.35rem;
+  padding: 0.8rem 1.5rem;
+}
