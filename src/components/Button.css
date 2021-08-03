@@ -1,6 +1,7 @@
 :root {
   --white-color: #fafafa;
   --black-color: #212121;
+  --green-color: #81c784;
 }
 
 /* Button */
@@ -24,7 +25,7 @@
   border: 1px solid var(--white-color);
   color: var(--white-color);
   background-color: transparent;
-  transition: all 2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 /* Medium Size Button */
@@ -41,7 +42,7 @@
 /* Medium & Large Button Hover */
 .medium-button:hover,
 .large-button:hover {
-  transition: all 2s ease-out;
-  color: var(--black-color);
+  transition: all 0.2s ease-out;
+  color: var(--green-color);
   background-color: var(--white-color);
 }
