@@ -37,3 +37,11 @@
   font-size: 1.35rem;
   padding: 0.8rem 1.5rem;
 }
+
+/* Medium & Large Button Hover */
+.medium-button:hover,
+.large-button:hover {
+  transition: all 2s ease-out;
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
