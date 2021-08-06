@@ -14,7 +14,7 @@ function HeroImage() {
         {/* Button Component */}
         <Link to ="/articles" className="button">
           <Button className="hero-button" button_style="outline-button" button_size="large-button">
-              Calming Place <i className="fas fa-arrow-circle-right"></i>
+              Calming Place <i className="fas fa-hand-point-right"></i>
           </Button>
         </Link>
         <Link to="/services" className="button">
