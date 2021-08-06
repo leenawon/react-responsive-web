@@ -12,13 +12,13 @@ function HeroImage() {
       {/* Hero Button */}
       <div className="hero-buttons">
         {/* Button Component */}
-        <Link to ="/articles" className="button">
-          <Button className="hero-button" button_style="outline-button" button_size="large-button">
+        <Link to ="/articles" className="hero-button">
+          <Button className="button" button_style="outline-button" button_size="large-button">
               Calming Place <i className="fas fa-hand-point-right"></i>
           </Button>
         </Link>
-        <Link to="/services" className="button">
-          <Button className="hero-button" button_style="basic-button" button_size="large-button">
+        <Link to="/services" className="hero-button">
+          <Button className="button" button_style="basic-button" button_size="large-button">
               Experience
           </Button>
         </Link>
