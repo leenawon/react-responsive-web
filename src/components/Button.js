@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Button.css';
 
 // Button Style & Button Size
@@ -12,10 +11,8 @@ export const Button = ({children, type, onClick, button_style, button_size
   const buttonSize = BUTTON_SIZE.includes(button_size) ? button_size : BUTTON_SIZE[0];
 
   return (
-    <Link to="/signup" className="button">
-      <button type={type} className={`button ${buttonStyle} ${buttonSize}`} onClick={onClick}>
-        {children}
-      </button>
-    </Link>
+    <button type={type} className={`button ${buttonStyle} ${buttonSize}`} onClick={onClick}>
+      {children}
+    </button>
   )
 };
