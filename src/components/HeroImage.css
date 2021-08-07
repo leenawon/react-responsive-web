@@ -1,0 +1,69 @@
+:root {
+  --white-color: #fafafa;
+  --green-color: #aed581;
+}
+
+/* Hero Image */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("/src/images/nature-image-home.jpg") center center/cover
+    no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+/* Hero Title & Text */
+.hero h1 {
+  font-size: 7rem;
+  color: var(--white-color);
+}
+
+.hero p {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: var(--white-color);
+}
+
+.hero h1,
+.hero p {
+  text-align: center;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+  margin-top: 3rem;
+}
+
+.hero-buttons .hero-button {
+  margin: 1.5rem;
+}
+
+/* Arrow Icon */
+.fa-hand-point-right {
+  font-size: 1.5rem;
+  margin-left: 0.25rem;
+}
+
+/* Media Query */
+@media screen and (max-width: 960px) {
+  .hero h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero p {
+    font-size: 2rem;
+  }
+
+  .hero-buttons .hero-button {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+  }
+}
