@@ -107,3 +107,40 @@
   color: var(--black-color);
   line-height: 24px;
 }
+
+/* Media Query */
+@media screen and (max-width: 1300px) {
+  .card-item {
+    width: 45vh;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .card-item {
+    width: 38vh;
+  }
+
+  .card-item-text {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-item {
+    width: 33vh;
+  }
+
+  .card-item-text {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card-item {
+    width: 45vh;
+  }
+
+  .card-item-text {
+    height: 100px;
+  }
+}
