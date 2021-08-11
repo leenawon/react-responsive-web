@@ -99,10 +99,6 @@
 
 /* Media Query */
 @media screen and (max-width: 960px) {
-  /* .NavbarItems {
-    position: relative;
-  } */
-
   /* Nav Bar Logo */
   .nav-logo {
     margin: 0;
@@ -125,6 +121,7 @@
     width: 100%;
     height: 87.6vh;
     position: absolute;
+    margin: 0;
     top: 80px;
     left: -100%;
     opacity: 1;
