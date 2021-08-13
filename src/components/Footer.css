@@ -1,0 +1,141 @@
+:root {
+  --white-color: #fafafa;
+  --black-color: #212121;
+  --green-color: #81c784;
+  --yellow-color: #e6ee9c;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow-color);
+  text-align: center;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 2rem;
+  color: var(--black-color);
+}
+
+.footer-section h1 {
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Sign Up Form */
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Email Input */
+.sign-up-form .email-input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--green-color);
+  color: var(--black-color);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.sign-up-form .email-input::placeholder {
+  font-size: 1rem;
+  color: var(--green-color);
+}
+
+/* Footer Link */
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 20vh;
+}
+
+/* Footer Icons */
+.footer-icons {
+  margin-left: 2rem;
+}
+
+.footer-icons i {
+  font-size: 1.6rem;
+  margin-right: 1.6rem;
+  color: var(--green-color);
+  cursor: pointer;
+}
+
+/* Footer Page */
+.footer-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30vw;
+  margin-right: 1.2rem;
+}
+
+/* Page Link */
+.footer-page .page-link {
+  color: var(--black-color);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.page-link:hover {
+  border-bottom: 4px solid var(--green-color);
+}
+
+/* Media Query */
+@media screen and (max-width: 860px) {
+  .footer-page {
+    width: 40vw;
+  }
+
+  .footer-page .page-link {
+    padding: 0;
+  }
+
+  .footer-icons i {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-link {
+    height: 35vh;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 20vw;
+    margin: 1rem 0 0 3rem;
+  }
+
+  .footer-icons i {
+    font-size: 1.2rem;
+    margin: 0 1.2rem 0.8rem 0;
+  }
+
+  .footer-page {
+    flex-direction: column;
+  }
+
+  .footer-page .page-link {
+    margin-bottom: 2rem;
+  }
+
+  .footer-page .page-link:last-child {
+    margin-bottom: 0;
+  }
+}
