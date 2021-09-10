@@ -1,0 +1,41 @@
+:root {
+  --white-color: #fafafa;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "STIX Two Text", serif;
+}
+
+/* Common Style */
+.articles,
+.services,
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  font-size: 3.2rem;
+  color: var(--white-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Articles */
+.articles {
+  background-image: url("images/nature-image-1.jpg");
+}
+
+/* Services */
+.services {
+  background-image: url("images/nature-image-2.jpg");
+}
+
+/* Sign Up */
+.sign-up {
+  background-image: url("images/nature-image-3.jpg");
+}
