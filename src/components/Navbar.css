@@ -1,8 +1,3 @@
-:root {
-  --white-color: #fafafa;
-  --green-color: #aed581;
-}
-
 /* NavBar */
 .navbar {
   display: flex;
@@ -10,7 +5,7 @@
   align-items: center;
   height: 5rem;
   font-size: 1.2rem;
-  background-color: var(--green-color);
+  background-color: var(--light-green-color);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -130,7 +125,7 @@
 
   /* Nav Menu List Active */
   .nav-menu-list.active {
-    background: var(--green-color);
+    background: var(--light-green-color);
     left: 0;
     opacity: 1;
     transition: all 0.3s ease;
@@ -148,7 +143,7 @@
   .menu-links:hover {
     border-radius: 0.5rem;
     background-color: var(--white-color);
-    color: var(--green-color);
+    color: var(--light-green-color);
   }
 
   .sign-up-links {
@@ -168,6 +163,6 @@
 
   .sign-up-links:hover {
     background-color: var(--white-color);
-    color: var(--green-color);
+    color: var(--light-green-color);
   }
 }
