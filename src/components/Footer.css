@@ -1,10 +1,3 @@
-:root {
-  --white-color: #fafafa;
-  --black-color: #212121;
-  --green-color: #81c784;
-  --yellow-color: #e6ee9c;
-}
-
 /* Footer */
 .footer {
   display: flex;

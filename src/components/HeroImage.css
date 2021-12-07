@@ -1,8 +1,3 @@
-:root {
-  --white-color: #fafafa;
-  --green-color: #aed581;
-}
-
 /* Hero Image */
 .hero {
   display: flex;
